@@ -1,0 +1,4 @@
+include README.md
+include examples/*.ipynb
+include docs/implementation_notes.*
+include docs/img/*.jpeg
