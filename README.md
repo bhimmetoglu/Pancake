@@ -3,6 +3,10 @@
 PanCake is a Python package that allows users to stack [scikit-learn](https://scikit-learn.org/stable/) models over a number 
 of folds and train stacker models using out-of-sample predictions of input models.
 
+<center>
+![Stacks](doc/img/Stacks.jpeg){height=25%, width=25%}
+</center>
+
 The stacking tool provides the construction of a `stacking module` composed of in-layer (models being stacked)
 and out-layer (stacker models) models. The output is a list or matrix of predictions from training of the module,
 which can either be used as the final results, or fed into a different module.
@@ -79,8 +83,8 @@ stacker = loadModel(savePath)
 
 ### Examples
 Jupyter notebooks analyzing the Boston Housing data is included in the repo:
-1. Stacking linear models
-2. Stacking Random Forest and Support Vector Regressors
+1. [Stacking linear models](https://github.com/bhimmetoglu/Pancake/blob/master/examples/BosHousing.ipynb)
+2. [Stacking Random Forest and Support Vector Regressors](https://github.com/bhimmetoglu/Pancake/blob/master/examples/BosHousing2.ipynb)
 
 ## TODO
 
