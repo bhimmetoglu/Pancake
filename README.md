@@ -4,7 +4,7 @@ PanCake is a Python package that allows users to stack [scikit-learn](https://sc
 of folds and train stacker models using out-of-sample predictions of input models.
 
 <center>
-![Stacks](doc/img/Stacks.jpeg){height=25%, width=25%}
+![Stacks](https://github.com/bhimmetoglu/Pancake/blob/master/docs/img/Stacks.jpeg){height=25%, width=25%}
 </center>
 
 The stacking tool provides the construction of a `stacking module` composed of in-layer (models being stacked)
