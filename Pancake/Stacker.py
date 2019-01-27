@@ -36,7 +36,7 @@ from sklearn.datasets import make_classification
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
 from sklearn.metrics import roc_auc_score
-from from pancake.Stacker import Stacker
+from from Pancake.Stacker import Stacker
 
 # Dataset
 X, y = make_classification(n_samples=1000)
